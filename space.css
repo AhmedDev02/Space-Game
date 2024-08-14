@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+}
+
+.game-background {
+    background: rgb(231, 231, 231);
+    background-image: url(pattern.jpg);
+    width: 1180px;
+    height: 550px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.player-area-1 {
+    background-image: url(spacebackground.webp);
+    background-size: 50%;
+    width: 550px;
+    height: 550px;
+    margin: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+
+.player-area-2 {
+    background-image: url(spacebackground.webp);
+    background-size: 50%;
+    width: 550px;
+    height: 550px;
+    margin: 10px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+    /* align-items: center;
+    display: flex; */
+
+
+}
+
+.sittings {
+    display: block;
+}
+
+.life-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.life-number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-white {
+    background: rgb(203, 203, 203);
+    width: 20px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.player-red {
+    background: rgb(255, 0, 0);
+    width: 20px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.start {
+    position: relative;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    top: 70px;
+    transition: ease 0.7s;
+}
+
+
+.start:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.timer {
+    background-color: rgb(243, 243, 243);
+    height: 20px;
+    font-size: 1.4em;
+    margin-top: 14px;
+}
+
+
+.player-1 {
+    position: sticky;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: rgb(228, 45, 45);
+    width: 90px;
+    height: 5px;
+    top: 560px;
+    left: 60px;
+    align-items: center;
+
+}
+
+.player-3 {
+    position: sticky;
+    margin-top: 15px;
+    border-radius: 10px;
+    background: rgb(228, 45, 45);
+    width: 90px;
+    height: 5px;
+    left: 1130px;
+    align-items: center;
+
+}
+
+.player-2 {
+    position: sticky;
+
+    margin-top: 15px;
+    border-radius: 10px;
+    background: rgb(231, 231, 231);
+    width: 90px;
+    height: 5px;
+    left: 515px;
+    align-items: center;
+
+}
+
+.player-4 {
+    position: sticky;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: rgb(231, 231, 231);
+    width: 90px;
+    height: 5px;
+    top: 560px;
+    align-items: center;
+}
+
+/* game players */
+
+
+.green-bullet {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 235, 4);
+
+}
+
+.blue-bullet {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(15, 0, 228);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.shoot1 {
+    position: relative;
+
+}
+
+.shoot2 {
+    position: relative;
+
+}
+
+.shoot3 {
+    position: relative;
+
+}
+
+.shoot4 {
+    position: relative;
+
+
+}
+
+.winner {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 250px;
+
+}
+
+.win-white {
+    color: white;
+    font-weight: 800;
+}
+
+.win-red {
+    color: red;
+    font-weight: 800;
+
+}
